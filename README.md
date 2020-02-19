@@ -5,7 +5,7 @@
 This project follows on from my [Writing_Django_2](https://github.com/mramshaw/Writing_Django_2) project, which is a simple Hello World in Django 2 LTS.
 
 [As might be expected, there were breaking changes between Django and Django 2. So rather than upgrade my
- [Cloud_Django](https://github.com/mramshaw/Cloud_Django) repo, it seemd to be a better idea to create
+ [Cloud_Django](https://github.com/mramshaw/Cloud_Django) repo, it seemed to be a better idea to create
  the __polls__ app in Django 2 and proceed from there, this time with Django 2 LTS.]
 
 It will use [gunicorn](http://gunicorn.org/) which is a web server for [Django](https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/gunicorn/).
