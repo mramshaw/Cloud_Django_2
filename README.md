@@ -13,7 +13,8 @@ Specifically, it is a [WSGI](https://en.wikipedia.org/wiki/Web_Server_Gateway_In
 
 The plan of attack is as follows:
 
-* [Install and test 'gunicorn'](https://github.com/mramshaw/Cloud_Django#gunicorn)
+* [Install and test 'gunicorn'](#gunicorn)
+* [Configure 'gunicorn'](#configure-gunicorn)
 
 ## gunicorn
 
@@ -47,6 +48,8 @@ $ gunicorn polls.wsgi
 [2019-11-27 09:49:17 -0500] [9766] [INFO] Shutting down: Master
 $
 ```
+
+## Configure gunicorn
 
 Now we need to open up `gunicorn` with a `gunicorn.conf.py` file (for some reason,
 this config file needs to be tagged as a Python file). By default, `gunicorn` runs
@@ -90,3 +93,7 @@ $
 ```
 
 Okay, everything runs.
+
+## To Do
+
+- [x] Add a badge for `Black` formatting style
